@@ -1,0 +1,18 @@
+type ExampleEntity @entity {
+  id: ID!
+  count: BigInt!
+  owner: Bytes! # address
+  approved: Bytes! # address
+}
+
+type NFTHolder @entity {
+  id: ID!
+  owner: Bytes! # address
+  tokenId: BigInt! # address
+}
+
+type User @entity{
+ id: ID!
+ count: BigInt!
+ address: Bytes! # address 
+}

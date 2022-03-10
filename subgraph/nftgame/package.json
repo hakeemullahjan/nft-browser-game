@@ -1,0 +1,16 @@
+{
+  "name": "nftgame",
+  "license": "UNLICENSED",
+  "scripts": {
+    "codegen": "graph codegen",
+    "build": "graph build",
+    "deploy": "graph deploy --node https://api.thegraph.com/deploy/ hakeemullahjan/nftgame",
+    "create-local": "graph create --node http://localhost:8020/ hakeemullahjan/nftgame",
+    "remove-local": "graph remove --node http://localhost:8020/ hakeemullahjan/nftgame",
+    "deploy-local": "graph deploy --node http://localhost:8020/ --ipfs http://localhost:5001 hakeemullahjan/nftgame"
+  },
+  "dependencies": {
+    "@graphprotocol/graph-cli": "0.27.0",
+    "@graphprotocol/graph-ts": "0.24.1"
+  }
+}

@@ -1,0 +1,5 @@
+yarn codegen
+graph build
+graph deploy --product hosted-service hakeemullahjan/nftgame 
+graph auth --product hosted-service <accesss_token>
+
